@@ -14,7 +14,7 @@ import Eye from "../assets/icons/Eye";
 
 
 {/*비밀번호 재설정 */}
-function ForgotPW({navigation}) {
+const ForgotPW = ({navigation}) => {
 
 {/*const [imageSrc, setImageSrc] = useState("https://via.placeholder.com/118x66"); // 초기 상태는 선택이 되지 않은 상태를 나타내기 위함
 const [isClicked, setIsClicked] = useState(false);
